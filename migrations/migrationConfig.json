@@ -1,0 +1,14 @@
+{
+    "RPCURIDEV" : "http://localhost:8545",
+    "RPCURIPROD" : "http://18.203.11.172:8549",
+    "Contracts" :[
+        {
+            "CompiledContractLocation" : "../build/contracts/ICashToken.json",
+            "DeployArgs" : ["ICASH", "ICASH", 100000, 2],
+            "DeployerAddress" : "0xffcf8fdee72ac11b5c542428b35eef5769c409f0",
+            "DeployerPrivateKey" : "0x6cbed15c793ce57650b9877cf6fa156fbef513c4e6134f022a85b1ffdd59b2a1",
+            "GasLimit" : 4000000,
+            "GasPrice" : 4000000000
+        }
+    ]
+}
